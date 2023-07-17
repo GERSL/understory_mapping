@@ -3,7 +3,7 @@ Algorithm to map understory species in deciduous forests using Sentinel-2 time s
 
 Please contact Xiucheng Yang (xiucheng.yang@uconn.edu), Shi Qiu (shi.qiu@uconn.edu) and Zhe Zhu (zhe@uconn.edu) at Department of Natural Resources and the Environment, University of Connecticut if you have any questions.
 
-**Dataset** are pending to be released.
+**Dataset** are available to download at [MendeleyOpenData](https://data.mendeley.com/datasets/rschxhwgvw/3).
 
 **Interactive maps** are available at [GEE APP for understory species distribution in Connecticut, United States](https://gers.users.earthengine.app/view/understory).
 
