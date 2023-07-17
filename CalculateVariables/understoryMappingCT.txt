@@ -1,0 +1,27 @@
+classfication of the understory species in CT
+RF model based on Sentinel-2 (broadbands and indices: EVI, NDVI, SAVI, NBR, NBNDVI) time series coefficients, rmse and GLCM textures of synthetic images (doy 100 + 120) 
+
+Proportion and number of samples for each category of the understory: 
+15 times to iteratively select representative 4000 samples
+
+Variable list: 
+blue-a0 blue-c blue-a1 blue-b1 blue-a2 blue-b2 blue-a3 blue-b3 green-a0 green-c 
+
+green-a1 green-b1 green-a2 green-b2 green-a3 green-b3 red-a0 red-c red-a1 red-b1 
+
+red-a2 red-b2 red-a3 red-b3 NIR-a0 NIR-c NIR-a1 NIR-b1 NIR-a2 NIR-b2 
+
+NIR-a3 NIR-b3 SWIR1-a0 SWIR1-c SWIR1-a1 SWIR1-b1 SWIR1-a2 SWIR1-b2 SWIR1-a3 SWIR1-b3 
+
+SWIR2-a0 SWIR2-c SWIR2-a1 SWIR2-b1 SWIR2-a2 SWIR2-b2 SWIR2-a3 SWIR2-b3 blue-rmse green-rmse 
+
+red-rmse NIR-rmse SWIR1-rmse SWIR2-rmse EVI-a0 EVI-c EVI-a1 EVI-b1 EVI-a2 EVI-b2 
+
+EVI-a3 EVI-b3 NDVI-a0 NDVI-c NDVI-a1 NDVI-b1 NDVI-a2 NDVI-b2 NDVI-a3 NDVI-b3 
+
+SAVI-a0 SAVI-c SAVI-a1 SAVI-b1 SAVI-a2 SAVI-b2 SAVI-a3 SAVI-b3 NBR-a0 NBR-c 
+
+NBR-a1 NBR-b1 NBR-a2 NBR-b2 NBR-a3 NBR-b3 NBNDVI-a0 NBNDVI-c NBNDVI-a1 NBNDVI-b1 
+
+NBNDVI-a2 NBNDVI-b2 NBNDVI-a3 NBNDVI-b3 EVI-rmse NDVI-rmse SAVI-rmse NBR-rmse NBNDVI-rmse 
+ RepSamples & iterations: OA - minAcc 
