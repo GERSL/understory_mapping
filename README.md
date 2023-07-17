@@ -7,5 +7,5 @@ Please contact Xiucheng Yang (xiucheng.yang@uconn.edu), Shi Qiu (shi.qiu@uconn.e
 
 **Interactive maps** are available at [GEE APP for understory species distribution in Connecticut, United States](https://gers.users.earthengine.app/view/understory).
 
-**Citations**
-Yang, X., Qiu, S., Zhu, Z., Rittenhouse, C., Riordan, D., & Cullerton, M. (2023). [Mapping understory plant communities in deciduous forests from Sentinel-2 time series]([https://gers.users.earthengine.app/view/understory](https://www.sciencedirect.com/science/article/pii/S0034425723001529)https://www.sciencedirect.com/science/article/pii/S0034425723001529). Remote Sensing of Environment, 293, 113601.
+**Citations** 
+Yang, X., Qiu, S., Zhu, Z., Rittenhouse, C., Riordan, D., & Cullerton, M. (2023). [Mapping understory plant communities in deciduous forests from Sentinel-2 time series](https://www.sciencedirect.com/science/article/pii/S0034425723001529). Remote Sensing of Environment, 293, 113601.
