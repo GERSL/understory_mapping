@@ -1,0 +1,60 @@
+classfication of the understory species in CT
+RF model based on Sentinel-2 (broadbands and indices: EVI, NDVI, SAVI, NBR, NBNDVI) time series coefficients, rmse and GLCM textures of synthetic images (doy 100 + 120) 
+
+Proportion and number of samples for each category of the understory: 
+11 times to iteratively select representative 8000 samples
+
+Variable list: 
+blue-a0 blue-a1 blue-b1 blue-a2 blue-b2 blue-a3 blue-b3 blue-a4 blue-b4 blue-a5 
+
+blue-b5 blue-a6 blue-b6 blue-a7 blue-b7 blue-a8 blue-b8 green-a0 green-a1 green-b1 
+
+green-a2 green-b2 green-a3 green-b3 green-a4 green-b4 green-a5 green-b5 green-a6 green-b6 
+
+green-a7 green-b7 green-a8 green-b8 red-a0 red-a1 red-b1 red-a2 red-b2 red-a3 
+
+red-b3 red-a4 red-b4 red-a5 red-b5 red-a6 red-b6 red-a7 red-b7 red-a8 
+
+red-b8 NIR-a0 NIR-a1 NIR-b1 NIR-a2 NIR-b2 NIR-a3 NIR-b3 NIR-a4 NIR-b4 
+
+NIR-a5 NIR-b5 NIR-a6 NIR-b6 NIR-a7 NIR-b7 NIR-a8 NIR-b8 SWIR1-a0 SWIR1-a1 
+
+SWIR1-b1 SWIR1-a2 SWIR1-b2 SWIR1-a3 SWIR1-b3 SWIR1-a4 SWIR1-b4 SWIR1-a5 SWIR1-b5 SWIR1-a6 
+
+SWIR1-b6 SWIR1-a7 SWIR1-b7 SWIR1-a8 SWIR1-b8 SWIR2-a0 SWIR2-a1 SWIR2-b1 SWIR2-a2 SWIR2-b2 
+
+SWIR2-a3 SWIR2-b3 SWIR2-a4 SWIR2-b4 SWIR2-a5 SWIR2-b5 SWIR2-a6 SWIR2-b6 SWIR2-a7 SWIR2-b7 
+
+SWIR2-a8 SWIR2-b8 blue-rmse green-rmse red-rmse NIR-rmse SWIR1-rmse SWIR2-rmse EVI-a0 EVI-a1 
+
+EVI-b1 EVI-a2 EVI-b2 EVI-a3 EVI-b3 EVI-a4 EVI-b4 EVI-a5 EVI-b5 EVI-a6 
+
+EVI-b6 EVI-a7 EVI-b7 EVI-a8 EVI-b8 NDVI-a0 NDVI-a1 NDVI-b1 NDVI-a2 NDVI-b2 
+
+NDVI-a3 NDVI-b3 NDVI-a4 NDVI-b4 NDVI-a5 NDVI-b5 NDVI-a6 NDVI-b6 NDVI-a7 NDVI-b7 
+
+NDVI-a8 NDVI-b8 SAVI-a0 SAVI-a1 SAVI-b1 SAVI-a2 SAVI-b2 SAVI-a3 SAVI-b3 SAVI-a4 
+
+SAVI-b4 SAVI-a5 SAVI-b5 SAVI-a6 SAVI-b6 SAVI-a7 SAVI-b7 SAVI-a8 SAVI-b8 NBR-a0 
+
+NBR-a1 NBR-b1 NBR-a2 NBR-b2 NBR-a3 NBR-b3 NBR-a4 NBR-b4 NBR-a5 NBR-b5 
+
+NBR-a6 NBR-b6 NBR-a7 NBR-b7 NBR-a8 NBR-b8 NBNDVI-a0 NBNDVI-a1 NBNDVI-b1 NBNDVI-a2 
+
+NBNDVI-b2 NBNDVI-a3 NBNDVI-b3 NBNDVI-a4 NBNDVI-b4 NBNDVI-a5 NBNDVI-b5 NBNDVI-a6 NBNDVI-b6 NBNDVI-a7 
+
+NBNDVI-b7 NBNDVI-a8 NBNDVI-b8 EVI-rmse NDVI-rmse SAVI-rmse NBR-rmse NBNDVI-rmse blue-100-m blue-100-cts 
+
+blue-100-sec green-100-m green-100-cts green-100-sec red-100-m red-100-cts red-100-sec NIR-100-m NIR-100-cts NIR-100-sec 
+
+SWIR1-100-m SWIR1-100-cts SWIR1-100-sec SWIR2-100-m SWIR2-100-cts SWIR2-100-sec EVI-100-m EVI-100-cts EVI-100-sec NDVI-100-m 
+
+NDVI-100-cts NDVI-100-sec SAVI-100-m SAVI-100-cts SAVI-100-sec NBR-100-m NBR-100-cts NBR-100-sec NBNDVI-100-m NBNDVI-100-cts 
+
+NBNDVI-100-sec blue-120-m blue-120-cts blue-120-sec green-120-m green-120-cts green-120-sec red-120-m red-120-cts red-120-sec 
+
+NIR-120-m NIR-120-cts NIR-120-sec SWIR1-120-m SWIR1-120-cts SWIR1-120-sec SWIR2-120-m SWIR2-120-cts SWIR2-120-sec EVI-120-m 
+
+EVI-120-cts EVI-120-sec NDVI-120-m NDVI-120-cts NDVI-120-sec SAVI-120-m SAVI-120-cts SAVI-120-sec NBR-120-m NBR-120-cts 
+
+NBR-120-sec NBNDVI-120-m NBNDVI-120-cts NBNDVI-120-sec 
